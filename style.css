@@ -1,0 +1,52 @@
+body{
+    background-color: hsl(350%,56% 85%);
+    padding:0;
+    margin:0;
+}
+
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 20px;
+    list-style-type: none;  
+}
+
+.navbar a {
+    padding: 30px;
+    margin: 0 10px;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.flex{
+     display: flex; 
+     justify-content: space-between;
+}
+
+ p{
+    font-size: 26px;
+    text-align: center;
+    margin: 15px 100px;
+    padding: 2px;
+}
+
+.here{
+    font-weight: 500;
+}
+
+
+p a:hover {
+    border-bottom: red solid;
+    padding: 0;
+    color: red;
+}
+
+    
